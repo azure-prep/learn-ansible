@@ -4,3 +4,4 @@
       ansible.builtin.debug:
         msg:
           - "print hello world"
+          -
