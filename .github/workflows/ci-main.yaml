@@ -1,0 +1,8 @@
+name: CI - Main
+on:
+  push:
+    branches:
+      - 'main'
+jobs:
+  Build:
+    uses: azure-prep/roboshop-github-actions/.github/workflows/ci-main.yml@main
